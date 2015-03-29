@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Vulpine Labs LLC. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for SquealSpecHelpers.
 FOUNDATION_EXPORT double SquealSpecHelpersVersionNumber;

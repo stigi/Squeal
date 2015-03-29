@@ -1,14 +1,5 @@
 import Foundation
-
-#if os(iOS)
-    #if arch(i386) || arch(x86_64)
-        import sqlite3_ios_simulator
-    #else
-        import sqlite3_ios
-    #endif
-#else
-import sqlite3_osx
-#endif
+import sqlite3
 
 /// Error domain for sqlite errors
 let SQLiteErrorDomain = "sqlite3"
