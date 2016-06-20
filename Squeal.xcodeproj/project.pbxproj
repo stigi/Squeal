@@ -85,6 +85,41 @@
 			remoteGlobalIDString = DA9876B21A4C70EB0004AA17;
 			remoteInfo = "QuickFocused-iOSTests";
 		};
+		94C0D2BE1D17994200C01AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7248251996A5AB00151E1E /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F5DF1551BDCA0CE00C3A531;
+			remoteInfo = "Nimble-tvOS";
+		};
+		94C0D2C01D17994200C01AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7248251996A5AB00151E1E /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F5DF15E1BDCA0CE00C3A531;
+			remoteInfo = "Nimble-tvOSTests";
+		};
+		94C0D2CB1D17994200C01AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7FC49A1A197EE500E73C0A /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CD51BDCA4AB005013A2;
+			remoteInfo = "Quick-tvOS";
+		};
+		94C0D2CD1D17994200C01AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7FC49A1A197EE500E73C0A /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CDE1BDCA4AB005013A2;
+			remoteInfo = "Quick-tvOSTests";
+		};
+		94C0D2CF1D17994200C01AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7FC49A1A197EE500E73C0A /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CF01BDCA4BB005013A2;
+			remoteInfo = "QuickFocused-tvOSTests";
+		};
 		CD61584819BCD74000E63F56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD7247EE1996880300151E1E /* Project object */;
@@ -179,6 +214,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94C0D2D11D179AAF00C01AEC /* sqlite3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
 		CD3DE27919BCD44B00DED437 /* SquealSpecHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SquealSpecHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3DE27C19BCD44B00DED437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD3DE27D19BCD44B00DED437 /* SquealSpecHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquealSpecHelpers.h; sourceTree = "<group>"; };
@@ -373,6 +409,7 @@
 			children = (
 				CD7248431996BE0400151E1E /* Foundation.framework */,
 				CD72483D1996BC0100151E1E /* libsqlite3.dylib */,
+				94C0D2D11D179AAF00C01AEC /* sqlite3.h */,
 				CD7248341996A5D100151E1E /* module.map */,
 				CD7247FB1996880300151E1E /* Info.plist */,
 			);
@@ -413,6 +450,8 @@
 				CD72482F1996A5AB00151E1E /* NimbleTests.xctest */,
 				CD7248311996A5AB00151E1E /* Nimble.framework */,
 				CD7248331996A5AB00151E1E /* NimbleTests.xctest */,
+				94C0D2BF1D17994200C01AEC /* Nimble.framework */,
+				94C0D2C11D17994200C01AEC /* NimbleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -426,6 +465,9 @@
 				CD7FC4A71A197EE500E73C0A /* Quick.framework */,
 				CD7FC4A91A197EE500E73C0A /* Quick-iOSTests.xctest */,
 				6249AD1F1B3F1402002253EF /* QuickFocused-iOSTests.xctest */,
+				94C0D2CC1D17994200C01AEC /* Quick.framework */,
+				94C0D2CE1D17994200C01AEC /* Quick-tvOSTests.xctest */,
+				94C0D2D01D17994200C01AEC /* QuickFocused-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -667,18 +709,22 @@
 				TargetAttributes = {
 					CD3DE27819BCD44B00DED437 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 					};
 					CD7247F61996880300151E1E = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 					};
 					CD7248011996880300151E1E = {
 						CreatedOnToolsVersion = 6.0;
 					};
 					CDCBEB4B19C5F6F500862BFD = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 					};
 					CDCBEB5519C5F6F500862BFD = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 					};
 					CDCBEB6F19C5F77900862BFD = {
 						CreatedOnToolsVersion = 6.1;
@@ -730,6 +776,41 @@
 			fileType = wrapper.cfbundle;
 			path = "QuickFocused-iOSTests.xctest";
 			remoteRef = 6249AD1E1B3F1402002253EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C0D2BF1D17994200C01AEC /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = 94C0D2BE1D17994200C01AEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C0D2C11D17994200C01AEC /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = 94C0D2C01D17994200C01AEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C0D2CC1D17994200C01AEC /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = 94C0D2CB1D17994200C01AEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C0D2CE1D17994200C01AEC /* Quick-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Quick-tvOSTests.xctest";
+			remoteRef = 94C0D2CD1D17994200C01AEC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94C0D2D01D17994200C01AEC /* QuickFocused-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "QuickFocused-tvOSTests.xctest";
+			remoteRef = 94C0D2CF1D17994200C01AEC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		CD72482D1996A5AB00151E1E /* Nimble.framework */ = {
@@ -973,6 +1054,7 @@
 				PRODUCT_NAME = SquealSpecHelpers;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -992,6 +1074,7 @@
 				PRODUCT_NAME = SquealSpecHelpers;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -1097,6 +1180,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -1117,6 +1201,7 @@
 				PRODUCT_NAME = Squeal;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -1178,6 +1263,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1200,6 +1286,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1225,6 +1312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -1244,6 +1332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1269,6 +1358,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1290,6 +1380,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/modules";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
